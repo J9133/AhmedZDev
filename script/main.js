@@ -256,7 +256,7 @@ function c_night_sum(){
         for (const el of night_sum) {
             el.style.backgroundColor = "red"
         }
-        m_s_img.src = "./imgs/moon.png"
+        m_s_img.src = "https://j9133.github.io/AhmedZDev/imgs/moon.png"
     }else{ 
         document.body.style.backgroundColor = "rgba(212, 181, 88, 1)"
         conter.style.backgroundColor = "rgba(207, 183, 111, 1)"
@@ -265,7 +265,7 @@ function c_night_sum(){
         for (const el of night_sum) {
             el.style.backgroundColor = "rgba(214, 179, 73, 1)"
         }
-        m_s_img.src = "./imgs/summer.png"
+        m_s_img.src = "https://j9133.github.io/AhmedZDev/imgs/moon.png"
     }
     ligh_mod = !ligh_mod
 }
