@@ -209,8 +209,7 @@ function lang(){
     if (langu == "ar"){
         text1.innerHTML = "Hello my name is"
         text11.innerHTML = "Game Developer"
-        text1.style.left = 0 + "%"
-        text11.style.left = 0 + "%"
+        text1.style.left = 50 + "%"
         videos_title.innerHTML = "videos"
         project_title.innerHTML = "project"
         moon_s_img6.innerHTML = "en"
@@ -218,8 +217,6 @@ function lang(){
     }else if (langu == "en"){
         text1.innerHTML = "مرحبا اسمي"
         text11.innerHTML = "مطور العاب"
-        text1.style.left = 23.5 + "%"
-        text11.style.left = 21 + "%"
         videos_title.innerHTML = "الفيديوهات"
         project_title.innerHTML = "المشاريع"
         moon_s_img6.innerHTML = "ar"
@@ -256,7 +253,7 @@ function c_night_sum(){
         for (const el of night_sum) {
             el.style.backgroundColor = "red"
         }
-        m_s_img.src = "https://j9133.github.io/AhmedZDev/imgs/moon.png"
+        m_s_img.src = "../imgs/moon.png"
     }else{ 
         document.body.style.backgroundColor = "rgba(212, 181, 88, 1)"
         conter.style.backgroundColor = "rgba(207, 183, 111, 1)"
@@ -265,7 +262,7 @@ function c_night_sum(){
         for (const el of night_sum) {
             el.style.backgroundColor = "rgba(214, 179, 73, 1)"
         }
-        m_s_img.src = "https://j9133.github.io/AhmedZDev/imgs/moon.png"
+        m_s_img.src = "../imgs/summer.png"
     }
     ligh_mod = !ligh_mod
 }
