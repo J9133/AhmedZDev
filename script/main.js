@@ -266,5 +266,4 @@ function c_night_sum(){
     ligh_mod = !ligh_mod
 }
 
-
 // } js code
