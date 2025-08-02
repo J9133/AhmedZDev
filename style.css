@@ -124,27 +124,31 @@ body{
     position: relative;
     z-index: 9995;
     font-size: 3vw;
-    transform: translate(0%, 50%);
+    transform: translate(-50%, 50%);
+    left: 50%;
     top: 12.5vw;
 }
 
 .h1text{
     position: absolute;
-    transform: translateX(60%);
+    transform: translateX(-50%);
+    left: 50%;
     color: red;
 }
 
 .h2text{
     position: absolute;
     color: rgb(249, 46, 46);
-    transform: translateX(100%);
+    transform: translateX(-50%);
+    left: 50%;
     top: 7.5vw;
 }
 
 .text3{
     position: absolute;;
     color: red;
-    transform: translateX(190%);
+    transform: translateX(-50%);
+    left: 50%;
     top: 20vw;
 }
 
