@@ -209,7 +209,6 @@ function lang(){
     if (langu == "ar"){
         text1.innerHTML = "Hello my name is"
         text11.innerHTML = "Game Developer"
-        text1.style.left = 50 + "%"
         videos_title.innerHTML = "videos"
         project_title.innerHTML = "project"
         moon_s_img6.innerHTML = "en"
@@ -266,5 +265,6 @@ function c_night_sum(){
     }
     ligh_mod = !ligh_mod
 }
+
 
 // } js code
