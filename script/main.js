@@ -209,6 +209,8 @@ function lang(){
     if (langu == "ar"){
         text1.innerHTML = "Hello my name is"
         text11.innerHTML = "Game Developer"
+        text1.style.left = 50 + "%"
+        text11.style.left = 50 + "%"
         videos_title.innerHTML = "videos"
         project_title.innerHTML = "project"
         moon_s_img6.innerHTML = "en"
@@ -216,6 +218,8 @@ function lang(){
     }else if (langu == "en"){
         text1.innerHTML = "مرحبا اسمي"
         text11.innerHTML = "مطور العاب"
+        text1.style.left = 50 + "%"
+        text11.style.left = 50 + "%"
         videos_title.innerHTML = "الفيديوهات"
         project_title.innerHTML = "المشاريع"
         moon_s_img6.innerHTML = "ar"
