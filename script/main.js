@@ -23,8 +23,9 @@ function res(par){
         conter.style.display = "none"
         conter2.style.display = "none"
         document.body.style.backgroundColor = "rgb(160, 34, 34)"
-        bodyall.style.width = 200 + "%"
-        bodyall.style.height = 200 + "%"
+        bodyall.style.width = 400 + "%"
+        bodyall.style.height = 400 + "%"
+        bodyall.style.left = 50 + "%"
     }else{
         conter.style.display = "block"
         conter2.style.display = "block"
@@ -33,6 +34,7 @@ function res(par){
         document.body.style.backgroundColor = "rgb(74, 15, 15)"
         bodyall.style.width = 100 + "%"
         bodyall.style.height = 100 + "%"
+        bodyall.style.left = 0 + "%"
     }
 }
 
