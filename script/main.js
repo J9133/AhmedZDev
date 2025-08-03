@@ -14,10 +14,26 @@ boxes.forEach((box, i) => {
 })
 
 document.getElementById("all_project").style.top = 25 + (v * 25) + "vw"
+const conter = document.getElementById("conter")
+const conter2 = document.getElementById("conter2")
 
 function res(par){
-    
+    if (par <= 650 && par > 500){
+        conter.style.width = 100 + "%"
+        conter2.style.width = 80 + "%"
+    }else if (par <= 500){
+        conter.style.width = 100 + "%"
+        conter2.style.width = 100 + "%"
+    }else{
+        conter.style.width = 90 + "%"
+        conter2.style.width = 60 + "%"
+    }
 }
+
+res(window.innerWidth)
+window.addEventListener('resize', function() {
+    res(window.innerWidth)
+});
 
 function title_size() {
     const img = document.getElementById("AhmedZDev_img");
