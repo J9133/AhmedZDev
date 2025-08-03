@@ -1,13 +1,31 @@
-
-body{
-    background-color: rgb(74, 15, 15);
-    overflow-x: hidden;
-    transform-origin: top center;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
-.all_conter{
-    position: relative;
-    top: 40vw;
+.viewport-lock {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
+body {
+  background-color: rgb(74, 15, 15);
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.all_conter {
+  position: relative;
+  top: 40vw;
 }
 
 .conter {
@@ -17,7 +35,7 @@ body{
   height: 100vh;
   background-color: rgb(120, 26, 26);
   transform: translateX(-50%);
-    left: 50%;
+  left: 50%;
   z-index: -2;
 }
 
@@ -31,186 +49,190 @@ body{
   z-index: -1;
 }
 
-.AhmedZDev_img{
-    position: absolute;
-    left: 50%;
-    width: 10vw;
-    border-radius: 100%;
-    z-index: 10000;
-    transform: translate(-50%, 0%);
+.AhmedZDev_img {
+  position: absolute;
+  left: 50%;
+  width: 10vw;
+  border-radius: 100%;
+  z-index: 10000;
+  transform: translate(-50%, 0%);
 }
 
 .title {
-    position: absolute;
-    left: 50%;
-    top: 20.5vw;
-    transform: translate(-50%, -50%);
-    font-size: 2vw;
-    text-align: center;
-    color: black;
-    white-space: normal;
-    padding: 1vw;
+  position: absolute;
+  left: 50%;
+  top: 20.5vw;
+  transform: translate(-50%, -50%);
+  font-size: 2vw;
+  text-align: center;
+  color: black;
+  white-space: normal;
+  padding: 1vw;
 }
 
-.AhmedZDev_i{
-    position: relative;
+.AhmedZDev_i {
+  position: relative;
 }
 
-.videos{
-    position: absolute;
-    left: 50%;
-    width: 40vw;
-    z-index: 0;
-    border-radius: 10px;
-    transform: translate(-50%, 100%);
+.videos {
+  position: absolute;
+  left: 50%;
+  width: 40vw;
+  z-index: 0;
+  border-radius: 10px;
+  transform: translate(-50%, 100%);
 }
 
-.videos_title{
-    position: absolute;
-    left: 50%;
-    width: 40vw;
-    z-index: 0;
-    font-size: 2.5vw;
-    text-align: center;
-    color: black;
-    white-space: normal;
-    padding: 1vw;
-    transform: translate(-50%, 350%);
+.videos_title {
+  position: absolute;
+  left: 50%;
+  width: 40vw;
+  z-index: 0;
+  font-size: 2.5vw;
+  text-align: center;
+  color: black;
+  white-space: normal;
+  padding: 1vw;
+  transform: translate(-50%, 350%);
 }
 
-.all_videos{
-    position: relative;
+.all_videos {
+  position: relative;
 }
 
-.sh{
-    position: fixed;
-    height: 6.0vw;
-    width: 80vw;
-    left: 50%;
-    top: 5vw;
-    border-radius: 20px;
-    z-index: 999999;
-    background-color: rgb(187, 30, 30);
-    transform: translate(-50%, -50%);
+.sh {
+  position: fixed;
+  height: 6.0vw;
+  width: 80vw;
+  left: 50%;
+  top: 5vw;
+  border-radius: 20px;
+  z-index: 999999;
+  background-color: rgb(187, 30, 30);
+  transform: translate(-50%, -50%);
 }
 
-.night_sum{
-    position: relative;
-    background-color: red;
-    border-radius: 100%;
-    float: left;
-    width: 4vw;
-    height: 4vw;
-    z-index: 9999;
-    margin-left: 1.5vw;
-    top: 1vw;
-    left: 30%;
+.night_sum {
+  position: relative;
+  background-color: red;
+  border-radius: 100%;
+  float: left;
+  width: 4vw;
+  height: 4vw;
+  z-index: 9999;
+  margin-left: 1.5vw;
+  top: 1vw;
+  left: 30%;
 }
 
-#moon_s_img6{
-    position: absolute;
-    font-size: 2.5vw;
-    top: 10%;
-    left: 16%;
+#moon_s_img6 {
+  position: absolute;
+  font-size: 2.5vw;
+  top: 10%;
+  left: 16%;
 }
 
-.moon_s_img{
-    width: 4vw;
+.moon_s_img {
+  width: 4vw;
 }
 
-.itext{
-    position: relative;
-    z-index: 9995;
-    font-size: 3vw;
-    transform: translate(-50%, 50%);
-    left: 50%;
-    top: 12.5vw;
+.itext {
+  position: relative;
+  z-index: 9995;
+  font-size: 3vw;
+  transform: translate(-50%, 50%);
+  left: 50%;
+  top: 12.5vw;
 }
 
-.h1text{
-    position: absolute;
-    transform: translateX(-50%);
-    left: 50%;
-    color: red;
+.h1text {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  color: red;
 }
 
-.h2text{
-    position: absolute;
-    color: rgb(249, 46, 46);
-    transform: translateX(-50%);
-    left: 50%;
-    top: 7.5vw;
+.h2text {
+  position: absolute;
+  color: rgb(249, 46, 46);
+  transform: translateX(-50%);
+  left: 50%;
+  top: 7.5vw;
 }
 
-.text3{
-    position: absolute;;
-    color: red;
-    transform: translateX(-50%);
-    left: 50%;
-    top: 20vw;
+.text3 {
+  position: absolute;
+  color: red;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 20vw;
 }
 
-#moon_s_img4{
-    position: absolute;
-    width: 3vw;
-    height: 3vw;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
+#moon_s_img4 {
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
 }
 
-.project_title{
-    position: absolute;
-    z-index: 9999;
-    font-size: 2.5vw;
-    text-align: center;
-    color: black;
-    white-space: normal;
-    padding: 1vw;
-    transform: translate(-50%, 0%);
-    left: 50%;
+.project_title {
+  position: absolute;
+  z-index: 9999;
+  font-size: 2.5vw;
+  text-align: center;
+  color: black;
+  white-space: normal;
+  padding: 1vw;
+  transform: translate(-50%, 0%);
+  left: 50%;
 }
 
-.projects{
-    position: relative;
-    left: 50%;
-    z-index: 0;
-    border-radius: 10px;
-    transform: translate(-50%, 0%);
-    top: 5vw;
-    margin-bottom: 2.5vw;
+.projects {
+  position: relative;
+  left: 50%;
+  z-index: 0;
+  border-radius: 10px;
+  transform: translate(-50%, 0%);
+  top: 5vw;
+  margin-bottom: 2.5vw;
 }
 
-.all_project{
-    position: relative;
-    transform: translate(-50%, 0%);
-    left: 50%;
-    top: 80vw;
+.all_project {
+  position: relative;
+  transform: translate(-50%, 0%);
+  left: 50%;
+  top: 80vw;
 }
 
-.project_img{
-    position: relative;
-    width: 40vw;
-    border-radius: 10px;
-    z-index: 9999;
-    left: 50%;
-    transform: translate(-50%, 0%);
+.project_img {
+  position: relative;
+  width: 40vw;
+  border-radius: 10px;
+  z-index: 9999;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 
 .icons {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 51%;
-    top: 18vw;
-    z-index: 99999;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 51%;
+  top: 18vw;
+  z-index: 99999;
 }
 
 .icon {
-    position: relative;
-    transform: translate(-50%, -50%);
-    width: 3vw;
-    margin-left: 1vw;
-    z-index: 10001;
+  position: relative;
+  transform: translate(-50%, -50%);
+  width: 3vw;
+  margin-left: 1vw;
+  z-index: 10001;
+}
+
+#bodyall {
+  transform-origin: top center;
 }
 
 @media (max-width: 900px) {
