@@ -213,7 +213,7 @@ function lang(){
         text11.style.left = 50 + "%"
         videos_title.innerHTML = "videos"
         project_title.innerHTML = "project"
-        moon_s_img6.innerHTML = "en"
+        moon_s_img6.innerHTML = "En"
         langu = "en"
     }else if (langu == "en"){
         text1.innerHTML = "مرحبا اسمي"
@@ -222,7 +222,7 @@ function lang(){
         text11.style.left = 50 + "%"
         videos_title.innerHTML = "الفيديوهات"
         project_title.innerHTML = "المشاريع"
-        moon_s_img6.innerHTML = "ar"
+        moon_s_img6.innerHTML = "Ar"
         langu = "ar"
     }
 }

@@ -105,15 +105,14 @@ body{
     z-index: 9999;
     margin-left: 1.5vw;
     top: 1vw;
-    left: 57%;
+    left: 30%;
 }
 
 #moon_s_img6{
-    font-size: 3vw;
-    left: 50%;
-    transform: translateX(15%);
-    top: 50%;
-    
+    position: absolute;
+    font-size: 2.5vw;
+    top: 10%;
+    left: 16%;
 }
 
 .moon_s_img{
