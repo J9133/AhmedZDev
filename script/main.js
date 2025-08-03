@@ -1,5 +1,19 @@
 let v = 0
 let p = 0
+let mobile = false
+
+document.addEventListener('gesturestart', function (e) {
+    e.preventDefault();
+});
+
+document.addEventListener('gesturechange', function (e) {
+    e.preventDefault();
+});
+
+document.addEventListener('gestureend', function (e) {
+    e.preventDefault();
+});
+
 const boxes = document.querySelectorAll('.videos')
 boxes.forEach((box, i) => {
   box.style.top = `${i * 25}vw`
@@ -22,12 +36,14 @@ function res(par){
         conter.style.display = "none"
         conter2.style.display = "none"
         document.body.style.backgroundColor = "rgb(160, 34, 34)"
+        mobile = true
     }else{
         conter.style.display = "block"
         conter2.style.display = "block"
         conter.style.width = 90 + "%"
         conter2.style.width = 60 + "%"
         document.body.style.backgroundColor = "rgb(74, 15, 15)"
+        mobile = false
     }
 }
 
@@ -240,7 +256,11 @@ function click2(par) {
 
 function c_night_sum(){
     if (ligh_mod){
-        document.body.style.backgroundColor = "rgb(74, 15, 15)"
+        if (mobile){
+            document.body.style.backgroundColor = "rgb(160, 34, 34)"
+        }else {
+            document.body.style.backgroundColor = "rgb(74, 15, 15)"
+        }
         conter.style.backgroundColor = "rgb(120, 26, 26)"
         conter2.style.backgroundColor = "rgb(160, 34, 34)"
         sh.style.backgroundColor = "rgb(187, 30, 30)"
