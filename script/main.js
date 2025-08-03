@@ -15,7 +15,9 @@ boxes.forEach((box, i) => {
 
 document.getElementById("all_project").style.top = 25 + (v * 25) + "vw"
 
-
+function res(par){
+    
+}
 
 function title_size() {
     const img = document.getElementById("AhmedZDev_img");
@@ -263,6 +265,7 @@ function c_night_sum(){
 
 function i(){
     console.log(window.innerWidth)
+    text1.innerHTML = window.innerWidth
 }
 
 setInterval(i, 500)
