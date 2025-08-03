@@ -16,18 +16,23 @@ boxes.forEach((box, i) => {
 document.getElementById("all_project").style.top = 25 + (v * 25) + "vw"
 const conter = document.getElementById("conter")
 const conter2 = document.getElementById("conter2")
+const bodyall = document.getElementById("bodyall")
 
 function res(par){
     if (par <= 768){
         conter.style.display = "none"
         conter2.style.display = "none"
         document.body.style.backgroundColor = "rgb(160, 34, 34)"
+        bodyall.style.width = 200 + "%"
+        bodyall.style.height = 200 + "%"
     }else{
         conter.style.display = "block"
         conter2.style.display = "block"
         conter.style.width = 90 + "%"
         conter2.style.width = 60 + "%"
         document.body.style.backgroundColor = "rgb(74, 15, 15)"
+        bodyall.style.width = 100 + "%"
+        bodyall.style.height = 100 + "%"
     }
 }
 
