@@ -275,9 +275,8 @@ body{
 }
 
 
-/* لتوسيط النصوص والعناصر الداخلية في الجوال */
 @media (max-width: 768px) {
-  body,
+  /* جعل العناصر الرئيسية وسط الصفحة */
   .bodyall,
   .itext,
   .AhmedZDev_i,
@@ -286,24 +285,30 @@ body{
   .all_project {
     display: flex;
     flex-direction: column;
-    align-items: center; /* توسيط أفقي */
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* ضبط صورة أحمد */
+  .AhmedZDev_img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* النصوص */
+  .title,
+  .h1text,
+  .h2text,
+  .text3,
+  .videos_title,
+  .project_title {
     text-align: center;
     width: 100%;
   }
 
-  .title,
-  .text3,
-  .h1text,
-  .h2text {
-    text-align: center !important;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .AhmedZDev_img {
-    margin: 0 auto;
-  }
-
+  /* إزالة أي تحولات قديمة تسبب ميل */
   .conter,
   .conter2 {
     width: 100% !important;
@@ -311,3 +316,5 @@ body{
     transform: none !important;
   }
 }
+
+
