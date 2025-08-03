@@ -18,23 +18,18 @@ const conter = document.getElementById("conter")
 const conter2 = document.getElementById("conter2")
 const bodyall = document.getElementById("bodyall")
 
+
 function res(par){
     if (par <= 768){
         conter.style.display = "none"
         conter2.style.display = "none"
         document.body.style.backgroundColor = "rgb(160, 34, 34)"
-        bodyall.style.width = 400 + "%"
-        bodyall.style.height = 400 + "%"
-        bodyall.style.left = 50 + "%"
     }else{
         conter.style.display = "block"
         conter2.style.display = "block"
         conter.style.width = 90 + "%"
         conter2.style.width = 60 + "%"
         document.body.style.backgroundColor = "rgb(74, 15, 15)"
-        bodyall.style.width = 100 + "%"
-        bodyall.style.height = 100 + "%"
-        bodyall.style.left = 0 + "%"
     }
 }
 
