@@ -16,15 +16,6 @@ boxes.forEach((box, i) => {
 document.getElementById("all_project").style.top = 25 + (v * 25) + "vw"
 
 
-const totalHeight = document.documentElement.scrollHeight 
-const screenHeight = window.innerHeight
-const percentOfScreen = (totalHeight / screenHeight) * 100
-const conter = document.getElementById("conter")
-const conter2 = document.getElementById("conter2")
-const all_videos = document.getElementById("all_videos")
-const pos_top = percentOfScreen
-conter.style.height = percentOfScreen * 3 + "vh"
-conter.style.top = pos_top + "%"
 
 function title_size() {
     const img = document.getElementById("AhmedZDev_img");
@@ -269,5 +260,11 @@ function c_night_sum(){
     }
     ligh_mod = !ligh_mod
 }
+
+function i(){
+    console.log(window.innerWidth)
+}
+
+setInterval(i, 500)
 
 // } js code
