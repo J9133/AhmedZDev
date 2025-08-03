@@ -131,7 +131,7 @@ body {
   font-size: 2.5vw;
   top: 10%;
   left: 16%;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bold;
 }
 
@@ -253,7 +253,6 @@ body {
 
 #bodyall {
   transform-origin: top center;
-  touch-action: manipulation;
 }
 
 html {
@@ -264,32 +263,7 @@ html {
   box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
-  #bodyall {
-    transform: none !important;
-  }
-  
-  .sh {
-    width: 95vw;
-    height: 8vw;
-  }
-  
-  .night_sum {
-    width: 6vw;
-    height: 6vw;
-    margin-left: 1vw;
-  }
-  
-  .moon_s_img {
-    width: 6vw;
-  }
-  
-  #moon_s_img6 {
-    font-size: 3.5vw;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 900px) {
+@media (max-width: 900px) {
   #bodyall {
     transform: scale(1.1);
   }
