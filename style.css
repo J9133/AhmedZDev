@@ -312,7 +312,7 @@ html {
   #bodyall {
     transform: scale(2.0);
   }
-}
+}/*
 @media (max-width: 400px) {
   #bodyall {
     transform: scale(2.1);
@@ -322,4 +322,4 @@ html {
   #bodyall {
     transform: scale(2.2);
   }
-}
+}*/
