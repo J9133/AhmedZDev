@@ -1,4 +1,3 @@
-//css {
 let v = 0
 let p = 0
 const boxes = document.querySelectorAll('.videos')
@@ -8,7 +7,7 @@ boxes.forEach((box, i) => {
 })
 
 const pro = document.querySelectorAll('.projects')
-boxes.forEach((box, i) => {
+pro.forEach((box, i) => {
   box.style.top = `${i * 25}vw`
   p += 1
 })
@@ -17,7 +16,6 @@ document.getElementById("all_project").style.top = 25 + (v * 25) + "vw"
 const conter = document.getElementById("conter")
 const conter2 = document.getElementById("conter2")
 const bodyall = document.getElementById("bodyall")
-
 
 function res(par){
     if (par <= 768){
@@ -60,11 +58,6 @@ function title_size() {
 window.addEventListener("load", title_size)
 window.addEventListener("resize", title_size)
 
-// } css
-
-// js code {
-
-//varebol & const
 let data
 let data2
 let ligh_mod = false
@@ -79,9 +72,6 @@ const videos_title = document.getElementById("videos_title")
 const project_title = document.getElementById("project_title")
 const moon_s_img6 = document.getElementById("moon_s_img6")
 
-
-
-//json
 fetch('./data/url/url.json')
   .then(response => response.json())
   .then(rdata => {
@@ -95,9 +85,6 @@ fetch('./data/url/url2.json')
     data2 = rdata
   })
   .catch(error => console.error('Error:', error))
-
-
-// clicks
 
 document.addEventListener("DOMContentLoaded", function () {
     const videos = document.querySelectorAll('.videos')
@@ -122,7 +109,6 @@ document.addEventListener("DOMContentLoaded", function () {
             console.log('Clicked project with ID:', projectId)
             const lastChar = projectId.charAt(projectId.length - 1)
             let ii = parseInt(lastChar)
-
             click2(ii)
         })
     })
@@ -135,7 +121,6 @@ document.getElementById("d").addEventListener("click", function () {
 document.getElementById("y").addEventListener("click", function () {
     window.open("https://www.youtube.com/@AhmedZDev", "_blank")
 })
-
 
 document.addEventListener("DOMContentLoaded", function() {
     const videos = document.querySelectorAll('#moon_s_img6')
@@ -212,11 +197,6 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 })
 
-
-
-// functions
-
-
 function lang(){
     if (langu == "ar"){
         text1.innerHTML = "Hello my name is"
@@ -258,7 +238,6 @@ function click2(par) {
   }
 }
 
-
 function c_night_sum(){
     if (ligh_mod){
         document.body.style.backgroundColor = "rgb(74, 15, 15)"
@@ -268,7 +247,7 @@ function c_night_sum(){
         for (const el of night_sum) {
             el.style.backgroundColor = "red"
         }
-        m_s_img.src = "../imgs/moon.png"
+        m_s_img.src = "./imgs/moon.png"
     }else{ 
         document.body.style.backgroundColor = "rgba(212, 181, 88, 1)"
         conter.style.backgroundColor = "rgba(207, 183, 111, 1)"
@@ -277,10 +256,7 @@ function c_night_sum(){
         for (const el of night_sum) {
             el.style.backgroundColor = "rgba(214, 179, 73, 1)"
         }
-        m_s_img.src = "../imgs/summer.png"
+        m_s_img.src = "./imgs/summer.png"
     }
     ligh_mod = !ligh_mod
 }
-
-
-// } js code
