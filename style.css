@@ -2,7 +2,7 @@
 body{
     background-color: rgb(74, 15, 15);
     overflow-x: hidden;
-    transform-origin: top center;
+
 }
 
 .all_conter{
@@ -273,18 +273,3 @@ body{
     transform: scale(2.2);
   }
 }
-
-@media (max-width: 600px) {
-  .conter {
-    width: 100% !important;
-    left: 0 !important;
-    transform: none !important;
-  }
-
-  .conter2 {
-    width: 100% !important;
-    left: 0 !important;
-    transform: none !important;
-  }
-}
-

@@ -18,22 +18,23 @@ const conter = document.getElementById("conter")
 const conter2 = document.getElementById("conter2")
 
 function res(par){
-    if (par <= 650 && par > 500){
-        conter.style.width = 100 + "%"
-        conter2.style.width = 80 + "%"
-    }else if (par <= 500){
-        conter.style.width = 100 + "%"
-        conter2.style.width = 100 + "%"
+    if (par <= 650){
+        conter.style.display = "none"
+        conter2.style.display = "none"
+        document.body.style.backgroundColor = "rgb(160, 34, 34)"
     }else{
+        conter.style.display = "block"
+        conter2.style.display = "block"
         conter.style.width = 90 + "%"
         conter2.style.width = 60 + "%"
+        document.body.style.backgroundColor = "rgb(74, 15, 15)"
     }
 }
 
 res(window.innerWidth)
 window.addEventListener('resize', function() {
     res(window.innerWidth)
-});
+})
 
 function title_size() {
     const img = document.getElementById("AhmedZDev_img");
@@ -279,11 +280,5 @@ function c_night_sum(){
     ligh_mod = !ligh_mod
 }
 
-function i(){
-    console.log(window.innerWidth)
-    text1.innerHTML = window.innerWidth
-}
-
-setInterval(i, 500)
 
 // } js code
