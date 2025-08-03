@@ -213,3 +213,64 @@ body{
     margin-left: 1vw;
     z-index: 10001;
 }
+@media (max-width: 900px) {
+  body {
+    transform: scale(1.1);
+    transform-origin: top center;
+  }
+}
+@media (max-width: 850px) {
+  body {
+    transform: scale(1.2);
+  }
+}
+@media (max-width: 800px) {
+  body {
+    transform: scale(1.3);
+  }
+}
+@media (max-width: 750px) {
+  body {
+    transform: scale(1.4);
+  }
+}
+@media (max-width: 700px) {
+  body {
+    transform: scale(1.5);
+  }
+}
+@media (max-width: 650px) {
+  body {
+    transform: scale(1.6);
+  }
+}
+@media (max-width: 600px) {
+  body {
+    transform: scale(1.7);
+  }
+}
+@media (max-width: 550px) {
+  body {
+    transform: scale(1.8);
+  }
+}
+@media (max-width: 500px) {
+  body {
+    transform: scale(1.9);
+  }
+}
+@media (max-width: 450px) {
+  body {
+    transform: scale(2.0);
+  }
+}
+@media (max-width: 400px) {
+  body {
+    transform: scale(2.1);
+  }
+}
+@media (max-width: 350px) {
+  body {
+    transform: scale(2.2);
+  }
+}
