@@ -18,7 +18,7 @@ const conter = document.getElementById("conter")
 const conter2 = document.getElementById("conter2")
 
 function res(par){
-    if (par <= 650){
+    if (par <= 768){
         conter.style.display = "none"
         conter2.style.display = "none"
         document.body.style.backgroundColor = "rgb(160, 34, 34)"
