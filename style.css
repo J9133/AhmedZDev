@@ -268,11 +268,11 @@ body {
   justify-content: center;
   align-items: flex-start;
   gap: 2vw;
-
   padding: 2vw;
   margin: 0 auto;
   max-width: 100%;
   box-sizing: border-box;
+  margin-top: 5vw;
 }
 
 
@@ -408,10 +408,10 @@ html {
     transform: translate(-50%, 1.2vw) scale(1.1);
   }
   .title {
-    top: 19vw;
+    top: 15vw;
   }
   .icons {
-    top: 17vw;
+    top: 18vw;
   }
 }
 @media (max-width: 500px) {
@@ -427,16 +427,16 @@ html {
     margin-top: 12vw;
   }
   .AhmedZDev_img {
-    transform: translate(-50%, -1vw);
+    transform: translate(-50%, 1vw);
   }
   .AhmedZDev_img:hover {
     transform: translate(-50%, -1vw) scale(1.1);
   }
   .title {
-    top: 17vw;
+    top: 14vw;
   }
   .icons {
-    top: 15vw;
+    top: 17vw;
   }
 }
 
@@ -593,3 +593,4 @@ html {
     top: 9vw;
   }
 }
+
