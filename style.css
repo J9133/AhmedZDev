@@ -459,10 +459,10 @@ html {
     transform: translate(-50%, -0.6vw) scale(1.1);
   }
   .title {
-    top: 14vw;
+    top: 12vw;
   }
   .icons {
-    top: 18vw;
+    top: 16vw;
   }
 }
 @media (max-width: 400px) {
@@ -484,10 +484,10 @@ html {
     transform: translate(-50%, -0.4vw) scale(1.1);
   }
   .title {
-    top: 12vw;
+    top: 11vw;
   }
   .icons {
-    top: 15vw;
+    top: 13vw;
   }
 }
 @media (max-width: 350px) {
