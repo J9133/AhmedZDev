@@ -453,16 +453,16 @@ html {
     margin-top: 10vw;
   }
   .AhmedZDev_img {
-    transform: translate(-50%, -0.8vw);
+    transform: translate(-50%, -0.6vw);
   }
   .AhmedZDev_img:hover {
-    transform: translate(-50%, -0.8vw) scale(1.1);
+    transform: translate(-50%, -0.6vw) scale(1.1);
   }
   .title {
-    top: 13vw;
+    top: 14vw;
   }
   .icons {
-    top: 16vw;
+    top: 18vw;
   }
 }
 @media (max-width: 400px) {
@@ -478,10 +478,10 @@ html {
     margin-top: 8vw;
   }
   .AhmedZDev_img {
-    transform: translate(-50%, -0.6vw);
+    transform: translate(-50%, -0.4vw);
   }
   .AhmedZDev_img:hover {
-    transform: translate(-50%, -0.6vw) scale(1.1);
+    transform: translate(-50%, -0.4vw) scale(1.1);
   }
   .title {
     top: 12vw;
@@ -503,10 +503,10 @@ html {
     margin-top: 6vw;
   }
   .AhmedZDev_img {
-    transform: translate(-50%, -0.4vw);
+    transform: translate(-50%, -0.2vw);
   }
   .AhmedZDev_img:hover {
-    transform: translate(-50%, -0.4vw) scale(1.1);
+    transform: translate(-50%, -0.2vw) scale(1.1);
   }
   .title {
     top: 11vw;
@@ -529,10 +529,10 @@ html {
     margin-top: 4vw;
   }
   .AhmedZDev_img {
-    transform: translate(-50%, -0.2vw);
+    transform: translate(-50%, 0vw);
   }
   .AhmedZDev_img:hover {
-    transform: translate(-50%, -0.2vw) scale(1.1);
+    transform: translate(-50%, 0vw) scale(1.1);
   }
   .title {
     top: 10vw;
@@ -555,10 +555,10 @@ html {
     margin-top: 2vw;
   }
   .AhmedZDev_img {
-    transform: translate(-50%, 0vw);
+    transform: translate(-50%, 0.2vw);
   }
   .AhmedZDev_img:hover {
-    transform: translate(-50%, 0vw) scale(1.1);
+    transform: translate(-50%, 0.2vw) scale(1.1);
   }
   .title {
     top: 9vw;
@@ -581,10 +581,10 @@ html {
     margin-top: 0vw;
   }
   .AhmedZDev_img {
-    transform: translate(-50%, 0.2vw);
+    transform: translate(-50%, 0.4vw);
   }
   .AhmedZDev_img:hover {
-    transform: translate(-50%, 0.2vw) scale(1.1);
+    transform: translate(-50%, 0.4vw) scale(1.1);
   }
   .title {
     top: 11vw;
