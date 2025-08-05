@@ -1,32 +1,18 @@
 let v = 0
 let p = 0
+let v_p = 25
 let mobile = false
 
-document.addEventListener('gesturestart', function (e) {
-    e.preventDefault();
-});
-
-document.addEventListener('gesturechange', function (e) {
-    e.preventDefault();
-});
-
-document.addEventListener('gestureend', function (e) {
-    e.preventDefault();
-});
-
-const boxes = document.querySelectorAll('.videos')
-boxes.forEach((box, i) => {
-  box.style.top = `${i * 25}vw`
-  v += 1
+const vid = document.querySelectorAll('.videos')
+vid.forEach((vi, i) => {
+    v += 1
 })
 
 const pro = document.querySelectorAll('.projects')
-pro.forEach((box, i) => {
-  box.style.top = `${i * 25}vw`
-  p += 1
+pro.forEach((pr, i) => {
+    p += 1
 })
 
-document.getElementById("all_project").style.top = 25 + (v * 25) + "vw"
 const conter = document.getElementById("conter")
 const conter2 = document.getElementById("conter2")
 const bodyall = document.getElementById("bodyall")
@@ -41,7 +27,7 @@ function res(par){
         conter.style.display = "block"
         conter2.style.display = "block"
         conter.style.width = 90 + "%"
-        conter2.style.width = 60 + "%"
+        conter2.style.width = 80 + "%"
         document.body.style.backgroundColor = "rgb(74, 15, 15)"
         mobile = false
     }
@@ -60,7 +46,7 @@ function title_size() {
         const H = img.offsetHeight
         const W = img.offsetWidth
 
-        title.style.height = (H * 2) + "px"
+        title.style.height = H+ "px"
         title.style.width = (W * 2) + "px"
     }
 
@@ -280,3 +266,9 @@ function c_night_sum(){
     }
     ligh_mod = !ligh_mod
 }
+
+function i(){
+    console.log(window.innerWidth)
+}
+
+setInterval(i, 500)
