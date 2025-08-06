@@ -417,10 +417,10 @@ html {
     transform: translate(-50%, 1.2vw) scale(1.1);
   }
   .title {
-    top: 16vw;
+    top: 17vw;
   }
   .icons {
-    top: 19vw;
+    top: 20vw;
   }
 }
 @media (max-width: 500px) {
