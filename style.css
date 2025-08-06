@@ -417,10 +417,10 @@ html {
     transform: translate(-50%, 1.2vw) scale(1.1);
   }
   .title {
-    top: 17vw;
+    top: 15vw;
   }
   .icons {
-    top: 20vw;
+    top: 19vw;
   }
 }
 @media (max-width: 500px) {
@@ -442,10 +442,10 @@ html {
     transform: translate(-50%, 1vw) scale(1.1);
   }
   .title {
-    top: 16vw;
+    top: 14.5vw;
   }
   .icons {
-    top: 19vw;
+    top: 18vw;
   }
 }
 
@@ -468,10 +468,10 @@ html {
     transform: translate(-50%, 1.4vw) scale(1.1);
   }
   .title {
-    top: 15vw;
+    top: 14vw;
   }
   .icons {
-    top: 19vw;
+    top: 18vw;
   }
 }
 @media (max-width: 400px) {
@@ -493,10 +493,10 @@ html {
     transform: translate(-50%, 1.2vw) scale(1.1);
   }
   .title {
-    top: 13vw;
+    top: 15vw;
   }
   .icons {
-    top: 16vw;
+    top: 18vw;
   }
 }
 @media (max-width: 350px) {
@@ -518,7 +518,7 @@ html {
     transform: translate(-50%, 1.4vw) scale(1.1);
   }
   .title {
-    top: 12vw;
+    top: 15vw;
   }
   .icons {
     top: 15;
