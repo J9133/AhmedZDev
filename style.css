@@ -468,10 +468,10 @@ html {
     transform: translate(-50%, 1.4vw) scale(1.1);
   }
   .title {
-    top: 13vw;
+    top: 15vw;
   }
   .icons {
-    top: 17vw;
+    top: 19vw;
   }
 }
 @media (max-width: 400px) {
