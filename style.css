@@ -194,9 +194,17 @@ body {
   position: relative;
   z-index: 9995;
   font-size: 2.5vw;
-  transform: translate(-50%, 50%);
-  left: 50%;
-  top: 12.5vw;
+  left: 40%;
+  top: 10vw;
+  transform: translate(-50%, 0);
+  text-align: left;
+}
+
+.h1text, .h2text, .text3 {
+  position: relative;
+  left: 0;
+  transform: none;
+  text-align: left;
 }
 
 .h1text {
@@ -218,16 +226,16 @@ body {
   position: absolute;
   color: red;
   transform: translateX(-50%);
-  left: 50%;
-  top: 20vw;
+  left: 48%;
+  top: 21vw;
 }
 
 .ahimg{
   position: absolute;
   width: 20vw;
   transform: translate(-50%, -50%);
-  left: 78%;
-  top: 14vw;
+  left: 84%;
+  top: 10vw;
 }
 
 #moon_s_img4 {
