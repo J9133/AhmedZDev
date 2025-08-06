@@ -82,7 +82,7 @@ body {
 
 
 .AhmedZDev_img:hover {
-  transform: translate(-50%, -0.5vw) scale(1.1);
+  transform: translate(-50%, 3vw) scale(1.1);
 }
 
 .title {
