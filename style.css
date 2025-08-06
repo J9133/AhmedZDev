@@ -234,8 +234,9 @@ body {
   position: absolute;
   width: 20vw;
   transform: translate(-50%, -50%);
-  left: 84%;
-  top: 10vw;
+  left: 80%;
+  top: 12vw;
+  image-rendering: pixelated;
 }
 
 #moon_s_img4 {
