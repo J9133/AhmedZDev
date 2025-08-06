@@ -484,10 +484,10 @@ html {
     transform: translate(-50%, -0.2vw) scale(1.1);
   }
   .title {
-    top: 9vw;
+    top: 13vw;
   }
   .icons {
-    top: 10vw;
+    top: 16vw;
   }
 }
 @media (max-width: 350px) {
