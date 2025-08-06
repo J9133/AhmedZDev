@@ -222,6 +222,14 @@ body {
   top: 20vw;
 }
 
+.ahimg{
+  position: absolute;
+  width: 20vw;
+  transform: translate(-50%, -50%);
+  left: 77%;
+  top: 14vw;
+}
+
 #moon_s_img4 {
   position: absolute;
   width: 3vw;
@@ -309,7 +317,7 @@ html {
 }
 
 * {
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 
 @media (max-width: 900px) {
@@ -390,6 +398,7 @@ html {
   }
 }
 
+/*-------------------------------------------------------------*/
 
 @media (max-width: 550px) {
   #bodyall {
@@ -402,16 +411,16 @@ html {
     margin-top: 15vw;
   }
   .AhmedZDev_img {
-    transform: translate(-50%, 1.2vw);
+    transform: translate(-50%, 1.4vw);
   }
   .AhmedZDev_img:hover {
     transform: translate(-50%, 1.2vw) scale(1.1);
   }
   .title {
-    top: 15vw;
+    top: 16vw;
   }
   .icons {
-    top: 18vw;
+    top: 19vw;
   }
 }
 @media (max-width: 500px) {
@@ -427,16 +436,16 @@ html {
     margin-top: 12vw;
   }
   .AhmedZDev_img {
-    transform: translate(-50%, 1vw);
+    transform: translate(-50%, 1.2vw);
   }
   .AhmedZDev_img:hover {
     transform: translate(-50%, 1vw) scale(1.1);
   }
   .title {
-    top: 14vw;
+    top: 15vw;
   }
   .icons {
-    top: 17vw;
+    top: 18vw;
   }
 }
 
@@ -453,16 +462,16 @@ html {
     margin-top: 10vw;
   }
   .AhmedZDev_img {
-    transform: translate(-50%, -0.6vw);
+    transform: translate(-50%, 1.4vw);
   }
   .AhmedZDev_img:hover {
-    transform: translate(-50%, -0.6vw) scale(1.1);
+    transform: translate(-50%, 1.4vw) scale(1.1);
   }
   .title {
-    top: 12vw;
+    top: 13vw;
   }
   .icons {
-    top: 16vw;
+    top: 17vw;
   }
 }
 @media (max-width: 400px) {
@@ -478,10 +487,10 @@ html {
     margin-top: 8vw;
   }
   .AhmedZDev_img {
-    transform: translate(-50%, -0.2vw);
+    transform: translate(-50%, 1.2vw);
   }
   .AhmedZDev_img:hover {
-    transform: translate(-50%, -0.2vw) scale(1.1);
+    transform: translate(-50%, 1.2vw) scale(1.1);
   }
   .title {
     top: 13vw;
@@ -503,16 +512,16 @@ html {
     margin-top: 6vw;
   }
   .AhmedZDev_img {
-    transform: translate(-50%, -0.2vw);
+    transform: translate(-50%, 1.4vw);
   }
   .AhmedZDev_img:hover {
-    transform: translate(-50%, -0.2vw) scale(1.1);
+    transform: translate(-50%, 1.4vw) scale(1.1);
   }
   .title {
-    top: 11vw;
+    top: 12vw;
   }
   .icons {
-    top: 14vw;
+    top: 15;
   }
 }
 
@@ -529,16 +538,16 @@ html {
     margin-top: 4vw;
   }
   .AhmedZDev_img {
-    transform: translate(-50%, 0vw);
+    transform: translate(-50%, 1.6vw);
   }
   .AhmedZDev_img:hover {
-    transform: translate(-50%, 0vw) scale(1.1);
+    transform: translate(-50%, 1.6vw) scale(1.1);
   }
   .title {
-    top: 10vw;
+    top: 11vw;
   }
   .icons {
-    top: 13vw;
+    top: 14vw;
   }
 }
 
@@ -555,42 +564,15 @@ html {
     margin-top: 2vw;
   }
   .AhmedZDev_img {
-    transform: translate(-50%, 0.2vw);
+    transform: translate(-50%, 1.8vw);
   }
   .AhmedZDev_img:hover {
-    transform: translate(-50%, 0.2vw) scale(1.1);
+    transform: translate(-50%, 1.8vw) scale(1.1);
   }
   .title {
-    top: 9vw;
+    top: 10vw;
   }
   .icons {
-    top: 12vw;
+    top: 13vw;
   }
 }
-
-@media (max-width: 200px) {
-  #bodyall {
-    transform: scale(2.1);
-  }
-  .videos, .projects {
-    width: 15vw;
-    display: inline-block;
-    margin: 1vw;
-  }
-  .all_videos {
-    margin-top: 0vw;
-  }
-  .AhmedZDev_img {
-    transform: translate(-50%, 0.4vw);
-  }
-  .AhmedZDev_img:hover {
-    transform: translate(-50%, 0.4vw) scale(1.1);
-  }
-  .title {
-    top: 11vw;
-  }
-  .icons {
-    top: 9vw;
-  }
-}
-
