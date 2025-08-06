@@ -478,16 +478,16 @@ html {
     margin-top: 8vw;
   }
   .AhmedZDev_img {
-    transform: translate(-50%, -0.4vw);
+    transform: translate(-50%, -0.2vw);
   }
   .AhmedZDev_img:hover {
-    transform: translate(-50%, -0.4vw) scale(1.1);
+    transform: translate(-50%, -0.2vw) scale(1.1);
   }
   .title {
-    top: 11vw;
+    top: 9vw;
   }
   .icons {
-    top: 13vw;
+    top: 10vw;
   }
 }
 @media (max-width: 350px) {
