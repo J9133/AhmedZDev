@@ -226,7 +226,7 @@ body {
   position: absolute;
   width: 20vw;
   transform: translate(-50%, -50%);
-  left: 77%;
+  left: 78%;
   top: 14vw;
 }
 
@@ -442,10 +442,10 @@ html {
     transform: translate(-50%, 1vw) scale(1.1);
   }
   .title {
-    top: 15vw;
+    top: 16vw;
   }
   .icons {
-    top: 18vw;
+    top: 19vw;
   }
 }
 
