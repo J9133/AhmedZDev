@@ -422,7 +422,7 @@ html {
     transform: translate(-50%, 1.4vw);
   }
   .AhmedZDev_img:hover {
-    transform: translate(-50%, 1.2vw) scale(1.1);
+    transform: translate(-50%, 1.4vw) scale(1.1);
   }
   .title {
     top: 15vw;
@@ -447,7 +447,7 @@ html {
     transform: translate(-50%, 1.2vw);
   }
   .AhmedZDev_img:hover {
-    transform: translate(-50%, 1vw) scale(1.1);
+    transform: translate(-50%, 1.2vw) scale(1.1);
   }
   .title {
     top: 14.5vw;
